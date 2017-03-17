@@ -1,0 +1,28 @@
+{
+  "name": "@sabbatical/server-status",
+  "version": "0.1.0",
+  "description": "Status shared by all servers. Used for reporting and admin.",
+  "main": "server-status.js",
+  "typings": "server-status.d.ts",
+  "keywords": [],
+  "private": false,
+  "scripts": {
+    "build": "npm run clean && tsc -p .",
+    "clean": "rm -f *.js"
+  },
+  "author": {
+    "name": "Peter Snider",
+    "email": "snider.peter@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "6.0.46",
+    "typescript": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:psnider/server-status.git"
+  }
+}
