@@ -4,18 +4,14 @@ General server system status, with an update function.
 
 # usage
 ```
-let uid = 'myserveruser'
-let gid = 'myservergroup'
-dropRootPrivileges({uid, gid})
+var status: ServerStatus = {
+    server_name: 'some-server',
+    version: '0.1.2',
+    git_commit_id: 'abcd'
+    latest_restart: new Date()
+}
+udpateServerStatus(status)
 ```
-
-Optionally, you can add a [pino]()-compatible logger with:
-```
-import {Logger} from 'pino'
-var log: Logger
-dropRootPrivileges({uid, gid}, log)
-```
-
 
 # build
 ```

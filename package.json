@@ -1,6 +1,6 @@
 {
   "name": "@sabbatical/server-status",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Status shared by all servers. Used for reporting and admin.",
   "main": "server-status.js",
   "typings": "server-status.d.ts",
