@@ -13,6 +13,9 @@ var status: ServerStatus = {
 udpateServerStatus(status)
 ```
 
+We use [@sabbatical/git-get-commit-id](https://www.npmjs.com/package/@sabbatical/git-get-commit-id) to set the *git_commit_id*.
+
+
 # build
 ```
 npm run build
